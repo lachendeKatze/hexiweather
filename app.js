@@ -9,6 +9,7 @@ function bleConnect(){
 };
 
 bleConnectButton.addEventListener('click',function(){
+    alert('trying to connect');
     hexiWeather.connect()
     .then(() => console.log('connected'))
     .catch(error => { console.log('connect error!');
