@@ -30,6 +30,8 @@
             .then(device => {
                 this.device = device;
                 // debug to console
+                alert('name: ' + device.name);
+                alert('uuids: ' + device.uuids);
                 console.log('name: ' + device.name);
                 console.log('Id: device.id')
                 console.log('uuids:' + device.uuids);
