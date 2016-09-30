@@ -13,7 +13,7 @@ bleConnectButton.addEventListener('click',function(){
     .then(() => console.log('connected'))
     .catch(error => { console.log('connect error!');
     });
-};    
+});    
 
 /*
 bleSwitch.addEventListener('click',function(){
