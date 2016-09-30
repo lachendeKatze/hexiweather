@@ -3,7 +3,7 @@ let bleConnectButton = document.querySelector('#bleConnectButton');
 
 function bleConnect(){
     hexiWeather.connect()
-    .then(() => console.log('connected'); alert('connected'))
+    .then(() => alert('connected'))
     .catch(error => { console.log('connect error!');
     });
 };
