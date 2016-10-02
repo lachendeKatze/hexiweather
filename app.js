@@ -23,19 +23,16 @@ temperatureButton.addEventListener('click',function(){
     tempReading = hexiWeather._readCharacteristic(hexiWeather.temperature);
     alert('temp: ' + tempReading);
     });
-});
 
 pressureButton.addEventListener('click',function(){
     pressureReading = hexiWeather._readCharacteristic(hexiWeather.pressure);
     alert('pres: ' + pressureReading);
     });
-});
 
 humidityButton.addEventListener('click',function(){
     humidityReading = hexiWeather._readCharacteristic(hexiWeather.humidity);
     alert('humid: ' + humidityReading);
     });
-});
 
 
 
