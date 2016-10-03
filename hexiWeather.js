@@ -42,6 +42,7 @@
                 return Promise.all([
                   server.getPrimaryService(this.serviceUUID)
                   .then(service=>{
+                    alert('uuuu: ' + device.uuids);
                     return Promise.all([
                       // grab all the characteristics of the Hexiwear weather service and cache for future use
                       this._cacheCharacteristic(service, this.ambientLight),
