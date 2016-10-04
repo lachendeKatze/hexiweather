@@ -48,7 +48,7 @@
                       this._cacheCharacteristic(service, this.temperature),
                       this._cacheCharacteristic(service, this.humidity),
                       this._cacheCharacteristic(service, this.pressure),
-                      alert('uuuuu: ' + device.uuids);
+                      // ('uuuuu: ' + device.uuids);
                     ])
                   })
                 ]);
